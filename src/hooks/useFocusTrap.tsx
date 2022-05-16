@@ -42,7 +42,7 @@ export function useFocusTrap({
         : undefined,
       fallbackFocus: fallback,
       escapeDeactivates: false,
-      clickOutsideDeactivates: false,
+      clickOutsideDeactivates: true,
     })
     let active = false
 
